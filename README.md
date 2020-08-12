@@ -22,6 +22,7 @@ The results can then be plotted using the sprawlops.gnuplot script.
 Version history
 ---------------
 0.1 Minimal functional program: Roll single-color dice for a team consisting of a single runner.
+
 0.2 Added options for armor points and re-rolls. Options can now be passed via a file
 
 
