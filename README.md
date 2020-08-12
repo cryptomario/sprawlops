@@ -9,20 +9,19 @@ This repo contains two things:
 
 The program
 -----------
-The program can be used to simulate a variety of experiments with varying skill levels, difficulty, armor points and re-rolls.
+The program can be used to simulate a variety of skill tests with varying skill levels, difficulty, armor points and re-rolls.
 
 
 Data analysis
 -------------
-Prerequesites: For data processing, gnuplot is used.
-runexperiments.sh is an example script that runs experiments with and without armor and re-rolls.
-The results can then be plotted using the sprawlops.gnuplot script.
+Prerequesites: For data processing, gnuplot is used.  
+runexperiments.sh is an example script that runs experiments by repeating the above skill tests several times (10^5 in the current version) in different configurations.  
+The results can then be plotted using the sprawlops.gnuplot script, which will create PNG images.
 
 
 Version history
 ---------------
-0.1 Minimal functional program: Roll single-color dice for a team consisting of a single runner.
-
+0.1 Minimal functional program: Roll single-color dice for a team consisting of a single runner.  
 0.2 Added options for armor points and re-rolls. Options can now be passed via a file
 
 
